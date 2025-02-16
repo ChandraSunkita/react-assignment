@@ -26,7 +26,7 @@ export const Counter = () => {
           <span data-testid="wordLength">Word: {wordCount}</span>
         </p>
 
-        <Link to='/joke'><span className='navButton' data-testid="charLength">Joke Page</span> </Link>
+        <Link to='/joke'><span className='navButton'>Joke Page</span> </Link>
     </section>
   )
 }
